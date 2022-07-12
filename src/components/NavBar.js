@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/profile.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github-1.svg';
+import CV from '../assets/img/DavidIrvingTech.pdf';
 
 
 export const NavBar = () => {
@@ -48,7 +49,7 @@ export const NavBar = () => {
               <a href="https://www.linkedin.com/in/david-j-irving/"><img src={navIcon1} alt="LinkedIn" /></a>
               <a href="https://github.com/David-Irving"><img src={navIcon2} alt="GitHub" /></a>
             </div>
-            <Nav.Link href="#contact" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}><button className="vvd" ><span>Let’s Connect</span></button></Nav.Link>
+            <Nav.Link href={CV} target="_blank"><button className="vvd" ><span>View Resume</span></button></Nav.Link>
           </span>
         </Navbar.Collapse>
       </Container>
