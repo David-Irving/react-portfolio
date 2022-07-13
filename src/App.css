@@ -258,7 +258,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #dcf634;
+  font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -322,6 +323,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+    color: #dcf634;
 }
 .skill-slider {
   width: 80%;
@@ -359,6 +361,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+  color: #dcf634;
 }
 .project .nav.nav-pills {
   width: 72%;

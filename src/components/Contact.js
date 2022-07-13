@@ -4,6 +4,7 @@ import contactImg from "../assets/img/emailsvg.webp";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Contact = () => {
   const formInitialDetails = {
     firstName: '',
@@ -12,6 +13,7 @@ export const Contact = () => {
     phone: '',
     message: ''
   }
+  
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
@@ -93,3 +95,7 @@ export const Contact = () => {
     </section>
   )
 }
+
+
+
+
